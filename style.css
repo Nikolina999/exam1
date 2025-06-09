@@ -1,0 +1,88 @@
+/* 
+  Автор: Дзензелевська Ніколіна
+  Група: ФІТ-2-11
+  Файл: style.css
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+header {
+  background: #007BFF;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav button {
+  background: white;
+  color: #007BFF;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav button:hover {
+  background: #e0e0e0;
+}
+
+main {
+  padding: 2em;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+label, select, button {
+  display: block;
+  margin: 1em 0;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.hidden {
+  display: none;
+}
+
+#confirmation {
+  margin-top: 1em;
+  background: #d4edda;
+  padding: 1em;
+  border-left: 5px solid #28a745;
+  color: #155724;
+}
+
+footer {
+  background: #f8f9fa;
+  padding: 1em;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
